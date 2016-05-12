@@ -1,7 +1,7 @@
 {
   "name": "chronometer",
   "main": "./lib/main",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This tool aid mensure time working in editor atom, you can use this for billing.",
   "keywords": [
       "productivity",
@@ -32,7 +32,7 @@
       }
     }
   },
-  "repository": "https://github.com/atom/chronometer",
+  "repository": "https://github.com/rodrigopmatias/atom-chronometer",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
