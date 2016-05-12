@@ -19,6 +19,10 @@
             {
                 "label": "Stop",
                 "command": "chronometer:stop"
+            },
+            {
+                "label": "Restart",
+                "command": "chronometer:restart"
             }
         ]
       }
@@ -46,6 +50,10 @@
               {
                   "label": "Stop",
                   "command": "chronometer:stop"
+              },
+              {
+                  "label": "Restart",
+                  "command": "chronometer:restart"
               }
           ]
         }
