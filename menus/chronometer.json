@@ -31,10 +31,22 @@
         {
           "label": "chronometer",
           "submenu": [
-            {
-              "label": "Toggle",
-              "command": "chronometer:toggle"
-            }
+              {
+                  "label": "Toggle",
+                  "command": "chronometer:toggle"
+              },
+              {
+                  "label": "Start",
+                  "command": "chronometer:start"
+              },
+              {
+                  "label": "Pause",
+                  "command": "chronometer:pause"
+              },
+              {
+                  "label": "Stop",
+                  "command": "chronometer:stop"
+              }
           ]
         }
       ]

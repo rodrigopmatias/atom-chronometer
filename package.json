@@ -20,8 +20,8 @@
           "type": "integer",
           "default": 20,
           "minimum": 15,
-          "maximum": 300,
-          "description": "Auto pause period, in seconds, for avaliable need pause chronomter, limits 15 and 300 seconds.",
+          "maximum": 900,
+          "description": "Auto pause period, in seconds, for avaliable need pause chronomter, limits 15 and 900 seconds.",
           "title": "Auto pause period"
       }
   },
