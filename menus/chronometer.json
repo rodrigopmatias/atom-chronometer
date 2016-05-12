@@ -1,0 +1,43 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Chronometer",
+        "submenu": [
+            {
+                "label": "Toggle",
+                "command": "chronometer:toggle"
+            },
+            {
+                "label": "Start",
+                "command": "chronometer:start"
+            },
+            {
+                "label": "Pause",
+                "command": "chronometer:pause"
+            },
+            {
+                "label": "Stop",
+                "command": "chronometer:stop"
+            }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "chronometer",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "chronometer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
