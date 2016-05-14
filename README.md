@@ -2,4 +2,4 @@
 
 A short description of your package.
 
-![Demostration](./demo.gif)
+![Demostration](demo.gif)
