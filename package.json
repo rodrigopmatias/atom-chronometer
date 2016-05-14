@@ -1,29 +1,29 @@
 {
   "name": "chronometer",
   "main": "./lib/main",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This tool aid mensure time working in editor atom, you can use this for billing.",
   "keywords": [
-      "productivity",
-      "chronometer",
-      "codetime",
-      "billing"
+    "productivity",
+    "chronometer",
+    "codetime",
+    "billing"
   ],
   "configSchema": {
-      "autoStart": {
-          "type": "boolean",
-          "default": true,
-          "description": "Auto init the chronometer for mensue time.",
-          "title": "Auto init chronomter"
-      },
-      "autoPausePeriod": {
-          "type": "integer",
-          "default": 20,
-          "minimum": 15,
-          "maximum": 900,
-          "description": "Auto pause period, in seconds, for avaliable need pause chronomter, limits 15 and 900 seconds.",
-          "title": "Auto pause period"
-      }
+    "autoStart": {
+      "type": "boolean",
+      "default": true,
+      "description": "Auto init the chronometer for mensue time.",
+      "title": "Auto init chronomter"
+    },
+    "autoPausePeriod": {
+      "type": "integer",
+      "default": 20,
+      "minimum": 15,
+      "maximum": 900,
+      "description": "Auto pause period, in seconds, for avaliable need pause chronomter, limits 15 and 900 seconds.",
+      "title": "Auto pause period"
+    }
   },
   "consumedServices": {
     "status-bar": {
@@ -37,6 +37,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
