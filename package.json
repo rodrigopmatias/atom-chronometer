@@ -1,14 +1,4 @@
 {
-  "name": "chronometer",
-  "main": "./lib/main",
-  "version": "0.2.3",
-  "description": "This tool aid mensure time working in editor atom, you can use this for billing.",
-  "keywords": [
-    "productivity",
-    "chronometer",
-    "codetime",
-    "billing"
-  ],
   "configSchema": {
     "autoStart": {
       "type": "boolean",
@@ -23,6 +13,25 @@
       "maximum": 900,
       "description": "Auto pause period, in seconds, for avaliable need pause chronomter, limits 15 and 900 seconds.",
       "title": "Auto pause period"
+    },
+    "locale": {
+      "type": "string",
+      "default": "en-us",
+      "description": "Locale for currency representation",
+      "title": "Locale"
+    },
+    "hourValue": {
+      "type": "number",
+      "default": 10,
+      "minimum": 0,
+      "description": "Value of work time, 0.00 for free work",
+      "title": "Value of work time"
+    },
+    "currencySimbol": {
+      "type": "string",
+      "default": "USD",
+      "description": "The simbol of currency.",
+      "title": "Currency Simbol"
     }
   },
   "consumedServices": {
@@ -32,10 +41,28 @@
       }
     }
   },
-  "repository": "https://github.com/rodrigopmatias/atom-chronometer",
-  "license": "MIT",
+  "dependencies": {},
+  "description": "This tool aid mensure time working in editor atom, you can use this for billing.",
+  "devDependencies": {},
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/rodrigopmatias/atom-chronometer#readme",
+  "keywords": [
+    "productivity",
+    "chronometer",
+    "codetime",
+    "billing"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "chronometer",
+  "optionalDependencies": {},
+  "readme": "# chronometer package\n\nA short description of your package.\n\n![Demostration](https://raw.githubusercontent.com/rodrigopmatias/atom-chronometer/master/demo.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigopmatias/atom-chronometer.git"
+  },
+  "version": "0.3.0"
 }
