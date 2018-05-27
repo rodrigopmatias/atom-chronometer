@@ -36,6 +36,10 @@
           "label": "chronometer",
           "submenu": [
               {
+                  "label": "Toggle Manager",
+                  "command": "chronometer:toggleManage"
+              },
+              {
                   "label": "Toggle",
                   "command": "chronometer:toggle"
               },
