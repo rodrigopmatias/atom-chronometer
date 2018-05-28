@@ -27,6 +27,14 @@
       "description": "Value of work time, 0.00 for free work",
       "title": "Value of work time"
     },
+    "fractionDigits": {
+      "type": "number",
+      "default": 2,
+      "minimum": 1,
+      "maximum": 6,
+      "description": "Number of fraction digits",
+      "title": "Fraction digits"
+    },
     "currencySimbol": {
       "type": "string",
       "default": "USD",

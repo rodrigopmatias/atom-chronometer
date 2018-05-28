@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "ctrl-cmd-c ctrl-t": "chronometer:toggleManage"
+  }
+}

@@ -1,5 +1,7 @@
 # chronometer package
 
-A short description of your package.
+![Atom with chronometer working](https://github.com/rodrigopmatias/atom-chronometer/blob/b4de0f4c4c14caa1a366009faf3e1ce4f42c71f3/images/window-of-work.png?raw=true)
 
-![Demostration](https://raw.githubusercontent.com/rodrigopmatias/atom-chronometer/master/demo.gif)
+![Detail of chronometer working](https://github.com/rodrigopmatias/atom-chronometer/blob/b4de0f4c4c14caa1a366009faf3e1ce4f42c71f3/images/chronometer-working-with-value.png?raw=true)
+
+![Settings](https://github.com/rodrigopmatias/atom-chronometer/blob/b4de0f4c4c14caa1a366009faf3e1ce4f42c71f3/images/chronometer-configuration.png?raw=true)

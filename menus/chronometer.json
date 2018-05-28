@@ -33,7 +33,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "chronometer",
+          "label": "Chronometer",
           "submenu": [
               {
                   "label": "Toggle Manager",
