@@ -49,8 +49,37 @@
       }
     }
   },
+  "atomTranspilers": [
+    {
+      "glob": "**/*.js",
+      "transpiler": "atom-babel6-transpiler",
+      "options": {
+        "babel": {
+          "presets": [
+            [
+              "env",
+              {
+                "targets": {
+                  "browsers": ["chrome >= 58"]
+                }
+              }
+            ],
+            "es2015",
+            "react"
+          ],
+          "babelrc": false
+        }
+      }
+    }
+  ],
   "dependencies": {
-    "atom-space-pen-views": "^2.0.3"
+    "atom-babel6-transpiler": "^1.1.3",
+    "atom-space-pen-views": "^2.0.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.0",
+    "reactdom": "^2.0.0"
   },
   "description": "This tool aid mensure time working in editor atom, you can use this for billing.",
   "devDependencies": {},
