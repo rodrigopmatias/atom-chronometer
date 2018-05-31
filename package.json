@@ -65,7 +65,7 @@
     "billing"
   ],
   "license": "MIT",
-  "main": "./lib/main",
+  "main": "./lib/index",
   "name": "chronometer",
   "optionalDependencies": {},
   "readme": "# chronometer package\n\nA short description of your package.\n\n![Demostration](https://raw.githubusercontent.com/rodrigopmatias/atom-chronometer/master/demo.gif)\n",
