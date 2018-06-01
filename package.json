@@ -60,7 +60,9 @@
               "env",
               {
                 "targets": {
-                  "browsers": ["chrome >= 58"]
+                  "browsers": [
+                    "chrome >= 58"
+                  ]
                 }
               }
             ],
@@ -82,7 +84,12 @@
     "reactdom": "^2.0.0"
   },
   "description": "This tool aid mensure time working in editor atom, you can use this for billing.",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2"
+  },
   "engines": {
     "atom-space-pen-views": "^2.0.3"
   },
