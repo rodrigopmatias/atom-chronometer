@@ -4,15 +4,15 @@ The Chronometer project was created to help developers measure the time worked, 
 
 It is very simple, and easy to pass unnoticed, see the figure below:
 
-![Atom with chronometer working](https://github.com/rodrigopmatias/atom-chronometer/blob/b4de0f4c4c14caa1a366009faf3e1ce4f42c71f3/images/window-of-work.png?raw=true)
+![Atom with chronometer working](images/window-of-work.png?raw=true)
 
 Now with more detail in the bottom bar:
 
-![Detail of chronometer working](https://github.com/rodrigopmatias/atom-chronometer/blob/0e9a3b9fdd4ee3581d9b84f16bc5bc23181de848/images/chronometer-working-with-value.png?raw=true)
+![Detail of chronometer working](images/chronometer-working-with-value.png?raw=true)
 
 The chronometer still has several settings such as the possibility to inform the value of an hour of your work, so that it can estimate how much time was invested in each session of code. See the figure below:
 
-![Settings](https://github.com/rodrigopmatias/atom-chronometer/blob/b4de0f4c4c14caa1a366009faf3e1ce4f42c71f3/images/chronometer-configuration.png?raw=true)
+![Settings](images/chronometer-configuration.png?raw=true)
 
 In addition to the global settings, in each project we can also have a <code> .chronometer.json</code> configuration file where we can make private definitions for the project in question, see:
 
