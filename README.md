@@ -17,7 +17,7 @@ The chronometer still has several settings such as the possibility to inform the
 In addition to the global settings, in each project we can also have a <code> .chronometer.json</code> configuration file where we can make private definitions for the project in question, see:
 
 <pre><code class="json">{
-  "currencySymnbol": "BTC",
+  "currencySymbol": "BTC",
   "hourValue": 0.0012,
   "locale": "en-us",
   "fractionDigits": 6

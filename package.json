@@ -35,7 +35,7 @@
       "description": "Number of fraction digits",
       "title": "Fraction digits"
     },
-    "currencySymnbol": {
+    "currencySymbol": {
       "type": "string",
       "default": "USD",
       "description": "The symbol of currency.",
