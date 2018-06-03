@@ -35,11 +35,11 @@
       "description": "Number of fraction digits",
       "title": "Fraction digits"
     },
-    "currencySimbol": {
+    "currencySymnbol": {
       "type": "string",
       "default": "USD",
-      "description": "The simbol of currency.",
-      "title": "Currency Simbol"
+      "description": "The symbol of currency.",
+      "title": "Currency Symbol"
     }
   },
   "consumedServices": {
